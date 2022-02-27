@@ -1,0 +1,53 @@
+{{>header}}
+
+<div class="myPage">
+  <div id="miniMenu" class="pp-form-container">
+
+
+    <div class="input-field">
+      <input name="firstName" value="{{firstname}}" id=" first_name1" type="text" class="validate"></input>
+      <label class="active" for="first_name1">First Name</label>
+    </div>
+    <div class="input-field">
+      <input name="secondName" value="{{lastname}}" id=" first_name2" type="text" class="validate"></input>
+      <label class="active" for="first_name2">Second Name</label>
+    </div>
+
+    <div id="createDiv">
+      <button id="create" onclick="window.location.href='/createRecipe'" class="btn waves-effect light-green darken-3"
+        type="submit">Create recipe
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+  </div>
+
+  <div class="myTitle">
+    <h3>My recipes</h3>
+    <div class="list">
+      {{#each userRecipe}}
+      <div id="justCard" class="row">
+        <div id="cardRecipe" class="col s12">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img src="{{this.img}}" id="myImg" width="50px">
+            </div>
+            <div class="card-content" id="card-content">
+              <span class="card-title">
+                <h6><b>{{this.serving}} serving, {{this.energy}} kcal</b></h6>
+              </span>
+              <p>PROTEIN: {{this.prot}} g</p>
+              <p>FAT: {{this.fat}} g</p>
+              <p>CARB: {{this.carb}} g</p>
+            </div>
+            <div class="card-action">
+              <a>{{this.title}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+{{!--
+<script defer src="/js/myProfile.js"></script> --}}

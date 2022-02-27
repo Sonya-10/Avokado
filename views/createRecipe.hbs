@@ -1,0 +1,50 @@
+{{>header}}
+
+<div class="row">
+  <div style="display:flex; flex-direction: column; align-items: center; margin-top:15px">
+
+    <form class="col s12" id="createRecipeForm">
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="title" id="title" name="title" type="text" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="img" id="img" name="img" type="text" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="servings" id="servings" name="servings" type="number" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="energy" id="energy" name="energy" type="number" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="ingredients" id="ingredients" name="ingredients" type="text" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="fat" id="fat" name="fat" type="number" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="prot" id="prot" name="prot" type="number" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="carb" id="carb" name="carb" type="number" class="validate">
+      </div>
+
+      <div class="input-field" style="width: 80%;">
+        <input placeholder="description" id="description" name="description" type="text" class="validate">
+      </div>
+
+      <button id="create" class="btn waves-effect light-green darken-3" type="submit" name="action">Create recipe
+        <i class="material-icons right">send</i>
+      </button>
+    </form>
+  </div>
+</div>`
+<script defer src="/js/createRecipe.js"></script>

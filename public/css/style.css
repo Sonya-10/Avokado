@@ -1,0 +1,205 @@
+.box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first{
+  width: 250px;
+  height: 900px;
+  background-color: white;
+  /* background-image: url('https://oir.mobi/uploads/posts/2021-03/1616541731_5-p-avokado-fon-7.jpg'); */
+  opacity: 0.7;
+}
+
+.second{
+  width: 250px;
+  height: 900px;
+  background-color: white;
+  /* background-image: url('https://grodnonews.by/upload/resize_cache/iblock/a0c/924_560_2/a0c658e229e4b0ccb83af16424aa2d05.jpg'); */
+  opacity: 0.7;
+}
+
+#justCard{
+  margin: 0;
+  width: 250px;
+}
+
+#container{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  background-image: url('https://www.revalsport.ee/wp-content/uploads/2020/03/tervislik_toit.jpg');
+}
+
+#textMain{
+  width: 60%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  background-color: #f7f0e6;
+  opacity: 0.9;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field{
+  display: flex;
+  justify-content: center;
+}
+
+.recipe{
+  display: flex;
+  justify-content: center;
+  margin: 0 40px;
+}
+
+.calories{
+  width: 40%;
+  border: 5px double black;
+  padding: 0 20px;
+  background-color: #ffebba;
+}
+
+.h5{
+  display: flex;
+  justify-content: center;
+}
+
+.h4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.p{
+  text-align: end;
+}
+
+.hr{
+  margin: 0;
+}
+
+.hr1{
+  height: 7px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.h3{
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.smallhr{
+  padding-left: 30px;
+}
+
+#recipeBook{
+  display: flex;
+  justify-content: center;
+}
+
+#putHere{
+  margin-top: 30px;
+  border-radius: 6%;
+  background-color: #eaf2e6;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+  min-height: 700px;
+}
+
+#cardRecipe{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.card{
+  width: 200px;
+}
+
+#card-content{
+  padding: 5px 10px;
+}
+
+#recipeList{
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.myPage{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#myImg{
+  max-height: 200px;
+}
+
+.myTitle{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#miniMenu{
+  min-height: 700px;
+  background-color: #eaf2e6;
+  margin-top: 2px;
+}
+
+.shef{
+  display: flex;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+.textRecipes{
+  text-align: center;
+  /* font-family: 'Patrick Hand', cursive; */
+}
+
+#createRecipeForm{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eaf2e6;
+}
+
+.recepesAndSearch{
+  display: flex;
+  justify-content:flex-start;
+}
+
+.leftSearch{
+  min-height: 700px;
+  background-color: #eaf2e6;
+  padding-left: 7px;
+  margin-top: 2px;
+}
+
+#withoutMargin{
+  margin-right: 0
+}
+ #chose{
+  text-align: center;
+ }

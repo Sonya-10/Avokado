@@ -1,0 +1,30 @@
+{{>header}}
+
+<div class="recepesAndSearch">
+  <div class="leftSearch">
+    <div>
+      <h4 class="textRecipes">Find best recipes with Avokado</h4>
+      <div>
+        <form id="inputForm" class="col s12">
+          <div id="withoutMargin" class="row">
+            <i class="material-icons prefix">search</i>
+            <div class="input-field s6">
+              <input id="icon_prefix" name="inputText" type="text" class="validate" placeholder="search">
+              <button id="searchButton" class="btn waves-effect light-green darken-3" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="shef">
+      <img
+        src="https://td-fermer.ru/sites/default/files/styles/medium/public/gallery/fermers/ip-madraimov-ms/ip-madraimov-mslogo1917138909.png?itok=7jn2Q_fj"
+        alt="">
+    </div>
+  </div>
+  <div id="recipeList" class="recipeList"></div>
+</div>
+
+<script defer src="/js/recipes.js"></script>

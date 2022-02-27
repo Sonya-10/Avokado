@@ -1,0 +1,21 @@
+<nav>
+  <div class="nav-wrapper light-green">
+    <img src="https://papik.pro/uploads/posts/2021-11/thumbs/1636001464_40-papik-pro-p-avokado-vektornii-risunok-40.png"
+      width="5%">
+    <a href="/" class="brand-logo"><b>Avokado</b></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><i class="material-icons">search</i></li>
+      <li><a href="/recipes">Search recipes</a></li>
+      {{#if isAuthorized}}
+      <li><i class="large material-icons">account_circle</i></li>
+      <li>Hello, {{firstname}}</li>
+      <li><a href="/myProfile/{{id}}">My profile</a></li>
+      <li><a id="logout" href="/">Log out</a></li>
+      {{else}}
+      <li><a href="/register">Sign up</a></li>
+      <li><a href="/login">Log in</a></li>
+      {{/if}}
+    </ul>
+  </div>
+</nav>
+<script defer src="/js/login.js"></script>
