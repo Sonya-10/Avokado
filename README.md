@@ -5,4 +5,4 @@ Calorie count and search for healthy recipes
 
 Введи количество продукта и получи полное описание энергетической ценности
 
-<img src="./img/avokado2.png">
+<img src="./img/avokado2.png" style="margin: auto">
